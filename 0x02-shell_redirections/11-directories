@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d ./* | wc -l
+find -empty | rev | cut -d'f' -f1 | rev
