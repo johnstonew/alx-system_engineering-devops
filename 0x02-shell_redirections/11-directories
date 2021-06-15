@@ -1,2 +1,2 @@
 #!/bin/bash
-find -empty | rev | cut -d'f' -f1 | rev
+find -mindepth 1 -type d | wc -l
