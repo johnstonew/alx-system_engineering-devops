@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-#  Bash script that loops from 1 to 20
+#  Bash script that displays the
+# time for 12 hours and 59 minutes
+
 i=0
 n=1
 while ((i<13))
