@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # duplicate web-01 to web-02.
 
-echo  "Downloading....\n"
 
 function install() {
 	command -v "$1" &> /dev/null
